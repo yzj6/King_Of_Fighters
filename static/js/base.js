@@ -3,7 +3,7 @@ import { Kyo } from '/static/js/player/kyo.js';
 
 class KOF {
     constructor(id) {
-        this.$kof = $('#' + id);//获取该id的用户输入信息
+        this.$kof = $('#' + id);//获取该id的界面上的信息
 
         this.game_map = new GameMap(this);//人物活动区
         this.players = [//两名角色
